@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de E-books sobre TDAH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .ebook {
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+        }
+        .ebook img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .ebook h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .ebook p {
+            color: #555;
+            margin: 10px 0;
+        }
+        .ebook button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .ebook button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja de E-books sobre TDAH</h1>
+        <p>Conhecimento e ferramentas para lidar com o Transtorno de Déficit de Atenção e Hiperatividade</p>
+    </header>
+    <nav>
+        <a href="#ebooks">E-books</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container" id="ebooks">
+        <div class="ebook">
+            <img src="https://via.placeholder.com/150/4CAF50/FFFFFF?text=TDAH+Guia+1" alt="E-book 1">
+            <h3>Entendendo o TDAH</h3>
+            <p>Um guia completo para pais e educadores.</p>
+            <p>R$ 29,90</p>
+            <button onclick="alert('Entre em contato para pagamento via Pix!')">Comprar</button>
+        </div>
+        <div class="ebook">
+            <img src="https://via.placeholder.com/150/4CAF50/FFFFFF?text=TDAH+Guia+2" alt="E-book 2">
+            <h3>TDAH em Adultos</h3>
+            <p>Estratégias práticas para organizar a vida.</p>
+            <p>R$ 39,90</p>
+            <button onclick="alert('Entre em contato para pagamento via Pix!')">Comprar</button>
+        </div>
+        <div class="ebook">
+            <img src="https://via.placeholder.com/150/4CAF50/FFFFFF?text=TDAH+Guia+3" alt="E-book 3">
+            <h3>Superando Desafios do TDAH</h3>
+            <p>Ferramentas e técnicas para o dia a dia.</p>
+            <p>R$ 19,90</p>
+            <button onclick="alert('Entre em contato para pagamento via Pix!')">Comprar</button>
+        </div>
+    </div>
+    <footer id="contato">
+        <p>Contato: <a href="mailto:sualoja@email.com">sualoja@email.com</a> | WhatsApp: (00) 12345-6789</p>
+        <p>© 2025 Loja de E-books sobre TDAH - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
